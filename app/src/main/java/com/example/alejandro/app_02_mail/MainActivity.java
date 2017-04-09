@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         protected String doInBackground(String... params) {
            try {
                Message message = new MimeMessage(session);
-               message.setFrom(new InternetAddress("aleerdzmtz15@hotmail.com"));
+               message.setFrom(new InternetAddress("kander0rd@gmail.com"));
                message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipient));
                message.setSubject(subject);
                message.setContent(textMessage, "text/html; charset=utf-8");
